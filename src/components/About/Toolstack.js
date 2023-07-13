@@ -3,10 +3,11 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiLinux,
   SiVisualstudiocode,
-  SiPostman,
-  SiHeroku,
-  SiVercel,
+  SiAmazonaws,
+  SiMysql
 } from "react-icons/si";
+
+import {DiGit} from "react-icons/di";
 
 function Toolstack() {
   return (
@@ -18,13 +19,13 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiMysql/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAmazonaws/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <DiGit/>
       </Col>
     </Row>
   );

@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myavatar from '../../Assets/myavatar.png'
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -19,26 +17,26 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              My Interest with computers started at a very young age but I have grown a lot since
+              High School and I believe I have learnt just enough to serve as a stepping stone in my career..
               <br />
-              <br />I am fluent in classics like
+              <br />I am good in programming languages such as
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> Javascript, SQL and Python. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple"> Web Technologies as well as Mobile apps</b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Deep Learning and Computer Vision.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              Whenever possible, I also apply my passion for developing software
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -48,13 +46,26 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js and React Native</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              {/* <Avatar
+                avatarStyle='Transparent'
+                topType='LongHairFro'
+                accessoriesType='Blank'
+                hairColor='Black'
+                facialHairType='Blank'
+                clotheType='ShirtScoopNeck'
+                clotheColor='PastelOrange'
+                eyeType='Happy'
+                eyebrowType='Default'
+                mouthType='Default'
+                skinColor='DarkBrown'
+              /> */}
+              <img src={myavatar} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -62,12 +73,12 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple"> connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Olympiah"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -75,19 +86,19 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://twitter.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/olympiah-otieno/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -95,16 +106,7 @@ function Home2() {
                   <FaLinkedinIn />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.instagram.com/soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <AiFillInstagram />
-                </a>
-              </li>
+
             </ul>
           </Col>
         </Row>
