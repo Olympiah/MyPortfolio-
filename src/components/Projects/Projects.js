@@ -2,10 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
+import food from "../../Assets/Projects/food.png";
 import sales from "../../Assets/Projects/sales.png";
 import speed from "../../Assets/Projects/speed.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import football from "../../Assets/Projects/football.png";
 
 function Projects() {
@@ -65,24 +64,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={food}
               isBlog={false}
               title="FooD App"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              description="This is a mobile app built using react native,expo and firebase as the database. I took inspiration from the uber eats app. It showcases my front-end development skills."
+              ghLink="https://github.com/Olympiah/FOODAPP.git"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={}
+              imgPath={leaf}
               isBlog={false}
-              title="F"
-              description="T"
-              ghLink=""
+              title="An ML Workflow on AWS SageMaker"
+              description="This project  utilizes the AWS services to train a model, deploy a model, and also AWS Lambda Functions, Step Functions to compose your model and services into an event-driven application"
+              ghLink="https://github.com/Olympiah/Image-Classification-model.git"
             />
-          </Col> */}
+          </Col>
         </Row>
       </Container>
     </Container>
