@@ -44,5 +44,5 @@ Clone down this repository. You will need `node.js` and `git` installed globally
 Open the project folder and Navigate to `/src/components/`. <br/>
 You will find all the components used and you can edit your information accordingly.
 
-Credits to **Soumyajit4419**
+Credits to  **Soumyajit4419**
 

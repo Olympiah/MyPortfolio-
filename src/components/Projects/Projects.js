@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
-import leaf from "../../Assets/Projects/leaf.png";
+import remed from "../../Assets/Projects/remed.png";
+import step from "../../Assets/Projects/stepfunction_success.png";
 import food from "../../Assets/Projects/food.png";
 import sales from "../../Assets/Projects/sales.png";
 import speed from "../../Assets/Projects/speed.png";
@@ -53,7 +54,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={remed}
               isBlog={false}
               title="RemeD Mobile"
               description="This is a mobile application built with react native whose main objective is was to create a platform for patience to have doctor's consultation virtually during the COVID Pandemic. It mainly focuses on patients with chronic diseases"
@@ -74,7 +75,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={step}
               isBlog={false}
               title="An ML Workflow on AWS SageMaker"
               description="This project  utilizes the AWS services to train a model, deploy a model, and also AWS Lambda Functions, Step Functions to compose your model and services into an event-driven application"
