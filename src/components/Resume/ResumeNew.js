@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle.js";
-import resume from "../../../src/Assets/Olympiah_Cv.pdf";
+import resume from "../../../src/Assets/Olympiah_cv_final.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
@@ -14,6 +14,19 @@ function ResumeNew() {
   useEffect(() => {
     setWidth(window.innerWidth);
   }, []);
+
+  // const styles = StyleSheet.create({
+  //   page: {
+  //     flexDirection: 'row',
+  //     // backgroundColor: '#E4E4E4'
+  //   },
+  //   section: {
+  //     margin: 10,
+  //     padding: 10,
+  //     flexGrow: 1
+  //   }
+  // });
+  
 
   return (
     <div>

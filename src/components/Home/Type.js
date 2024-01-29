@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Front-End Developer",
           "Data Science enthusiast 📊",
-          "AWS AI programming with Python alumni",
+          "AWS AI and Machine Learning scholar 22' and 23'",
           
         ],
         autoStart: true,
