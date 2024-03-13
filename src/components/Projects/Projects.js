@@ -7,6 +7,8 @@ import food from "../../Assets/Projects/food.png";
 import sales from "../../Assets/Projects/sales.png";
 import speed from "../../Assets/Projects/speed.png";
 import football from "../../Assets/Projects/football.png";
+import churn from "../../Assets/Projects/churn.png";
+import call from "../../Assets/Projects/call.png";
 
 function Projects() {
   return (
@@ -30,6 +32,25 @@ function Projects() {
             />
           </Col>
 
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={churn}
+              isBlog={false}
+              title="Customer Churn Analysis at PhoneNow"
+              description="In this project I perform customer churn risk analysis for the company PhoneNow as part of PWC Power BI virtual internship. I identify the key performance metrics, explore the customer profiles and lastly perform risk analysis to be able to make informed business decisions that I can share with the risk management team."
+              // ghLink=""
+              demoLink="https://app.powerbi.com/reportEmbed?reportId=e64da733-6a0e-4690-a64f-28d94eade3c1&autoAuth=true&ctid=ef8cc863-2140-41be-b7c5-436495915dbe"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={call}
+              isBlog={false}
+              title="Call Center Analysis"
+              description="In this project I identify various key performance metrics at call centers in order to optimize operations i.e. customer satisfaction, agent hold time etc."
+              demoLink="https://app.powerbi.com/reportEmbed?reportId=bf0c7fd0-b344-4659-8d8f-e769bdc6ebb2&autoAuth=true&ctid=ef8cc863-2140-41be-b7c5-436495915dbe"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={football}
